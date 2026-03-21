@@ -1,0 +1,104 @@
+body{
+    margin:0px;
+}
+
+
+#main{
+    width:auto;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+a{
+    color: white;
+    font-size: small;
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:hover{
+    color: orange;
+    transform: scale(1.1);
+}
+
+button{
+    background-color: orange;
+    color: white;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: darkorange;
+    transform: scale(1.1);
+}
+
+#logo{
+    color:orange;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.links{
+    display: flex;
+    gap: 150px;
+    
+}
+
+.search{
+    display: flex;
+    gap: 5px;
+    
+}
+
+#content{
+    display: flex;
+    height: 540px;
+}
+
+.contentbox{
+    border: 2px solid black;
+    color: white;
+    text-shadow: 2px 2px black;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+#c1{
+    background-color: lightpink;
+    font-size: 40px;
+    background-image: url('https://picsum.photos/seed/picsum/200/300');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#c2{
+    background-color: lightgreen;
+    font-size: 40px;
+    background-image: url('https://picsum.photos/seed/box2/200/200');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#c3{
+    background-color: lightblue;
+    font-size: 40px;
+    background-image: url('https://picsum.photos/seed/box3/200/200');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header, footer{
+    overflow: hidden;
+}
